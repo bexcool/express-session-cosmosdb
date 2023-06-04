@@ -5,14 +5,22 @@
 This is yet another implementation of an Express session provider, this one targeting  
 Azure Cosmos DB.
 
-While there were a previous generation of providers created for documentdb, or the older  
+## Install
+
+This fork's repo includes the dist directory so that it can be used directly:
+
+```bash
+npm/pnpm install github:bexcool/express-session-cosmosdb
+```
+
+<!-- While there were a previous generation of providers created for documentdb, or the older  
 Cosmos libraries, this targets the 2020+-era Cosmos SDK and uses TypeScript.
 
 This library is repackaged from the open source GitHub Management Portal used at Microsoft  
 that I created as part of my day job. See also: <https://github.com/microsoft/opensource-management-portal/blob/main/lib/cosmosSession/index.ts>
 
 I am unofficially packaging up this for independent use in personal projects for the time
-being, since it's such a basic library, and publishing into my own scoped NPM package for now.
+being, since it's such a basic library, and publishing into my own scoped NPM package for now. -->
 
 ## Preparing Cosmos DB for session storage
 
